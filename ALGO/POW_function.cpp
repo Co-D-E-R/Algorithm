@@ -18,12 +18,12 @@ ll pow(ll a,ll b)
     ll ans=1;
     while(b>0)
     {
-        if(b%2==0)
-            ans=(ans*ans)%M;
-        else
-            ans=(((a*ans)%M)*ans)%M;
+        if(b & 1)
+            ans=(ans*a)%M;
+            
+        a = a*a % M;
         
-        b/=2;
+        b>>=1;
     }
     return ans;
 }
