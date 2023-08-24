@@ -1,4 +1,4 @@
-//Find the minimum number of coins using greedy method.
+
 #include<bits/stdc++.h>
 using namespace std;
 
