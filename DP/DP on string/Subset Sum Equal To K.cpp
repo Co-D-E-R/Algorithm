@@ -1,3 +1,7 @@
+//You are given an array/list 'ARR' of 'N' positive integers and an integer 'K'.
+//your task is to check if there exists a subset in 'ARR' with a sum equal to 'K'.
+//Note: Return true if there exists a subset with sum equal to 'K'. Otherwise,
+//return false.
 #include <bits/stdc++.h>
 using namespace std;
 #include <bits/stdc++.h>
